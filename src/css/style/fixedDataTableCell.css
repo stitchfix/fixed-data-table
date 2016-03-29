@@ -14,7 +14,7 @@
  */
 .public/fixedDataTableCell/main {
   background-color: var(fbui-white);
-  border-color: #d3d3d3;
+  border-color: transparent;
 }
 
 .public/fixedDataTableCell/highlighted {
@@ -23,6 +23,10 @@
 
 .public/fixedDataTableCell/cellContent {
   padding: 8px;
+}
+
+.public/fixedDataTable/header .public/fixedDataTableCell/cellContent {
+  padding: 4px 8px;
 }
 
 .public/fixedDataTableCell/columnResizerKnob {

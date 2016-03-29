@@ -11,7 +11,7 @@
 
 .fixedDataTableLayout/main {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px 1px 0px 0px;
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -19,13 +19,13 @@
 
 .fixedDataTableLayout/header,
 .fixedDataTableLayout/hasBottomBorder {
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 2px;
 }
 
 .fixedDataTableLayout/footer .public/fixedDataTableCell/main {
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 0px;
 }
 
 .fixedDataTableLayout/topShadow,

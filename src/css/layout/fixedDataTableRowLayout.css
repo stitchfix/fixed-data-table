@@ -33,6 +33,7 @@
 }
 
 .fixedDataTableRowLayout/columnsShadow {
+  margin-left: -1px;
   width: 4px;
 }
 

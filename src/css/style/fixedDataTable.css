@@ -14,27 +14,16 @@
  * Table.
  */
 .public/fixedDataTable/main {
-  border-color: #d3d3d3;
+  border-color: transparent;
 }
 
 .public/fixedDataTable/header,
 .public/fixedDataTable/hasBottomBorder {
-  border-color: #d3d3d3;
+  border-color: transparent;
 }
 
 .public/fixedDataTable/header .public/fixedDataTableCell/main {
   font-weight: bold;
-}
-
-.public/fixedDataTable/header,
-.public/fixedDataTable/header .public/fixedDataTableCell/main {
-  background-color: var(fbui-desktop-background-light);
-  background-image: linear-gradient(#fff, #efefef);
-}
-
-.public/fixedDataTable/footer .public/fixedDataTableCell/main {
-  background-color: var(fbui-desktop-background-light);
-  border-color: #d3d3d3;
 }
 
 .public/fixedDataTable/topShadow {
